@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Cadastrar"
+    android:background="@drawable/app_icon"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome Próprio"
+            android:textColor="@color/white" />
+        <EditText
+            android:autofillHints="name"
+            android:id="@+id/txtNomeProprio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: Assis"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apelido 1"
+            android:textColor="@color/white" />
+        <EditText
+            android:id="@+id/txtApelido1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: Francisco"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apelido 2"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/txtApelido2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:hint="Ex.: Magrinho"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bilhete de Identidade"
+            android:textColor="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/txtBI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: 007206615KN040"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Naturalidade"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/txtNaturalidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: Uige"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"
+            android:inputType="text"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Residência/Bairro"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/txtResidencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.:Mbemba Ngango"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Nascimento"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/dateFormat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex.: 18/09/2004"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"
+            android:inputType="date"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:hint="Selecionar Província"
+            android:padding="14dp"
+            android:textColorHint="#330099"
+            android:textSize="14sp"
+
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/txtAutoCompleteProvincia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"></AutoCompleteTextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:hint="Selecionar Escola"
+            android:padding="14dp"
+            android:textColorHint="#330099"
+            android:textSize="14sp"
+
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/txtAutoCompleteEscola"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"></AutoCompleteTextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:hint="Selecionar Curso"
+            android:padding="14dp"
+            android:textColorHint="#330099"
+            android:textSize="14sp"
+
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/txtAutoCompleteCurso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnCarregarDocumentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_buttom"
+            app:backgroundTint="@null"
+            android:layout_marginTop="16dp"
+            android:text="Carregar o Ficheiro PDF"
+            android:textAllCaps="false"
+            android:textColor="@color/color_default"
+            />
+        <TextView
+            android:id="@+id/lblDocumentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ATENÇÃO: Carregar o PDF com o BI e a Declaração do I Ciclo ambos Coloridos!!!, "
+            android:gravity="center"
+            android:textColor="#712626" />
+
+        <Button
+            android:id="@+id/btnInscrever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_buttom"
+            app:backgroundTint="@null"
+            android:layout_marginTop="16dp"
+            android:text="Finalizar Inscrição"
+            android:textAllCaps="false"
+            android:textColor="@color/color_default"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

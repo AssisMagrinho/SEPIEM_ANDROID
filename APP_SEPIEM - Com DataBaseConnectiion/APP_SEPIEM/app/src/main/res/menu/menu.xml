@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_escolas"
+        android:title="Escolas"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/item_formInscricao"
+        android:title="Formulário de Inscrição"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item_SobreNos"
+        android:title="Sobre Nós"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+
+    <TextView
+        android:id="@+id/ligacaoInternetTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Ligação à Internet"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/layoutInternetConnection"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_wifi_off_24"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sem ligação à Internet"
+            android:layout_marginLeft="30dp"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fotoEscola"
+                android:src="@drawable/app_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtDesignacaoEscola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="IMNE"
+                    android:textColor="#000033"
+                    android:textSize="14sp"></TextView>
+
+                <TextView
+                    android:id="@+id/txtLocalizacaoEscola"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Localização: Sambizanga "
+
+                    >
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDistanciaEscola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_alignParentRight="true"
+            android:text="0 km"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

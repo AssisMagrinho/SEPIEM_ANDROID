@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476477142804",
+    "firebase_url": "https://newsepiem-default-rtdb.firebaseio.com",
+    "project_id": "newsepiem",
+    "storage_bucket": "newsepiem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476477142804:android:0509ea7bd6e7026d873401",
+        "android_client_info": {
+          "package_name": "com.example.app_sepiem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476477142804-mln8m66de30133jlr4v60jvn31iau3r4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnzIDYiQcUmVQdSswH_dVQ96h0pSwH-wU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476477142804-mln8m66de30133jlr4v60jvn31iau3r4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

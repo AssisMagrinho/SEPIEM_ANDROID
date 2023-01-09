@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pesquisarInscricao"
+    android:background="@drawable/app_icon"
+    >
+
+    <AutoCompleteTextView
+        android:radius="20dp"
+        android:id="@+id/txtPesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:hint="Informe o BI..."
+        android:popupBackground="@color/color_default"
+        android:textColor="#999999"
+        android:textSize="16sp"
+        android:background="@drawable/bg_edit"
+        android:drawableLeft="@drawable/searchbuttom"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPesquisar"
+        android:layout_marginBottom="528dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+
+    </LinearLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tb_Inscrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPesquisar"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            tools:listitem="@layout/list_layout"
+            />
+
+    <Button
+        android:id="@+id/btnImprimirComprovativo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_buttom"
+        app:backgroundTint="@null"
+        android:text="Imprimir Comprovativo"
+        android:textAllCaps="false"
+        android:textColor="@color/color_default"
+        android:layout_below="@+id/tb_Inscrito"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+
+
+
+
+</RelativeLayout>

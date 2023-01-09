@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp"
+
+                    >
+                    <TextView
+                        android:id="@+id/lblBI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#000033"
+                        android:textSize="15sp"
+                        android:text="007206615KN040"
+                        >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/lblNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Assis"
+
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/lblApelido1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Francisco"
+
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/lblApelido2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Magrinho"
+
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/lblNaturalidade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Cazengo"
+
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/lblResidencia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Mbemba Ngango"
+
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/lblNascimento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="18/09/19##"
+
+                        >
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/lblProvincia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Cuanza Norte"
+
+                        >
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lblEscola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_alignParentRight="true"
+                android:text="Liceu Uige"
+                >
+
+            </TextView>
+    <TextView
+        android:id="@+id/lblCurso"
+        android:layout_below="@+id/lblEscola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_alignParentRight="true"
+        android:text="C. Fís. e Biológicas"
+        >
+
+    </TextView>
+
+
+    </RelativeLayout>
